@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario_Juarez</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f4;
+            background-image: url(https://www.silocreativo.com/wp-content/uploads/2024/10/fondo-escritorio-2024-monte-fuji-japon.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center; 
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #cee521;
+        }
+
+        .calendar-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .calendar {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .calendar th, .calendar td {
+            border: 2px solid #070c17;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .calendar th {
+            background: #395e8e;
+            color: white;
+        }
+
+        .calendar tr:nth-child(even) {
+            background-color: #7e94aa;
+        }
+
+        
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #23a973;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #2f7be0;
+        }
+    </style>
+</head>
+<body>
+    <table border="4" align="center">
+        <tr> <th><h1>Calendario del mes de Enero</h1></th></tr>
+    </table>
+    <table class="calendar">
+            <tr>
+                <th><button class="btn">Configuracion</button></th>
+                <th>  <button class="btn">Buscar dia</button></th>
+                <th> <button class="btn">Organizadores</button></th>
+                <th> <button class="btn">Pendientes</button></th>
+                <th><button class="btn">&#9665;</button></th>
+                <th> <button class="btn">&#9655;</button></th>
+                <th><button class="btn">Informacion</button></th>
+            </tr>
+            </table>
+<table class="calendar">
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td>01</td><td>02</td><td>03</td><td>04</td>
+            </tr>
+            <tr>
+                <td>05</td><td bgcolor="7eee69">06<br>Cumpleaños de Angel</td><td>07</td><td>08</td><td>09</td><td>10</td><td>11</td>
+            </tr>
+            <tr>
+                <td>12</td><td>13</td><td>14</td><td bgcolor="7eee69">15<br>Inicio de Curso de Informatica</td><td>16</td><td>17</td><td>18</td>
+            </tr>
+            <tr>
+                <td>19</td><td>20</td><td>21</td><td bgcolor="7eee69">22<br>Tarea de HTMl</td><td>23</td><td>24</td><td bgcolor="7eee69">25<br>Estudiar para examanes</td>
+            </tr>
+            <tr>
+                <td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td>
+            </tr>
+            <tr>
+                <td colspan="7" style="background: #e8f0fe; font-weight: bold;">Organiza tus días de manera eficiente</td>
+            </tr>
+        </table>
+</body>
+</html>
